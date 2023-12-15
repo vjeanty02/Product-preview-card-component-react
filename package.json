@@ -3,7 +3,7 @@
   "private": true,
   "version": "0.0.0",
   "type": "module",
-  "homepage": "https://votre_username_github.github.io/votre_nom_de_depot/",
+  "homepage": "https://vjeanty02.github.io/Results-summary-component-react/",
   "scripts": {
     "predeploy": "npm run build",
     "deploy": "gh-pages -d dist",
