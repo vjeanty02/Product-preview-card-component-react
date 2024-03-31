@@ -1,0 +1,69 @@
+.miceva, .intervention, .contact, .chiffre, .program{
+  max-width: 1500px;
+  margin: auto;
+}
+.miceva{
+  margin-top: 50px;
+  display: flex;
+  flex-direction: column;
+  
+}
+.miceva__container__card {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 30px;
+  border-radius: 25px;
+  padding: 50px;
+  margin-top: 50px;
+}
+.card1{
+  
+  flex-basis: calc(50% - 15px);
+  background-color: #fff;
+  padding: 40px;
+  transition: all 0.5s;
+  border-radius: 35px 0px 35px 0px;
+  box-shadow: 1px 16px 22px -16px rgba(0, 0, 0, 0.222);
+  cursor: pointer;
+}
+@media (max-width:1050px) {
+  .home__container {
+    gap: 20px;
+    padding: 20px;
+    margin-top: 20px;
+
+  }
+  .card {
+    flex-basis: calc(50% - 50px);
+    min-height:255px ;
+  }
+   
+ }
+
+ @media (max-width:600px) {
+  .home__container {
+    background-color: transparent;
+    padding: 0px;
+  }
+   .card {
+     flex-basis: calc(100% - 50px);
+   }
+    
+  }
+ 
+ 
+
+  .intervention{
+    margin-top: 50px;
+  }
+  .chiffre{
+  }
+
+  
+  .chiffre__container__card {
+    display: flex;
+    gap: 30px;
+    border-radius: 25px;
+    padding: 50px;
+    margin-top: 50px;
+  }

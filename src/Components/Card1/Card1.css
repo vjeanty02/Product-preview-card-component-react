@@ -1,0 +1,16 @@
+.card1__svg{
+  width: 60px;
+}
+
+.card1{
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  background-color: #fff;
+  padding: 30px;
+  transition: all 0.5s;
+  border-radius: 35px 0px 35px 0px;
+	box-shadow: 1px 16px 22px -16px rgba(0, 0, 0, 0.222);
+  cursor: pointer;
+  margin: auto;
+}

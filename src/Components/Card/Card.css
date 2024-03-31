@@ -1,0 +1,26 @@
+.card__cover{
+  border-radius: 35px 0px 35px 0px;
+  height: 270px;
+  width: 420px;
+}
+.card__svg{
+  width: 60px;
+}
+.card__container{
+  display: flex;
+  flex-direction: column;
+}
+
+.card__info{
+  display: grid;
+  grid-template-columns: auto;
+  grid-template-rows: auto;
+  grid-column-gap: 0px;
+  grid-row-gap: 0px;
+  }
+  
+  .card__html { grid-area: 1 / 1 / 2 / 3; }
+  .card__svg { grid-area: 2 / 1 / 4 / 2; }
+  .card__title { grid-area: 2 / 2 / 3 / 3; }
+  .card__paragraph { grid-area: 3 / 2 / 4 / 3; }
+  .card__btn { grid-area: 4 / 1 / 5 / 3; }

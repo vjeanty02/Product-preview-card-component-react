@@ -1,0 +1,15 @@
+.headingPrimary{
+    text-align: center;
+    margin-bottom: 20px;
+    position: relative;
+  }
+  .headingPrimary::after{
+    content: "";
+    position: absolute;
+    bottom: -25px;
+    left: 50%;
+    transform: translateX(-50%);
+    height: 4px;
+    background-color: #2c5954;
+    width: 80px;
+  }
