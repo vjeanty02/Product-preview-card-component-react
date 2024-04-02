@@ -1,6 +1,7 @@
-import React, { useState, useEffect } from "react";
+import { useState, useEffect } from "react";
+import PropTypes from 'prop-types'; 
 
-import "./Carousel.css"
+import "./Carousel.css";
 
 function Carousel({ photos }) {
   const [index, setIndex] = useState(0);
@@ -39,5 +40,10 @@ function Carousel({ photos }) {
     </section>
   );
 }
+
+
+Carousel.propTypes = {
+  photos: PropTypes.arrayOf(PropTypes.string).isRequired,
+};
 
 export default Carousel;

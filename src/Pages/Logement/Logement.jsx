@@ -7,7 +7,7 @@ import Dropdown from './../../Components/Dropdown/Dropdown';
 import TagName from './../../Components/TagName/TagName';
 import Host from './../../Components/Host/Host';
 import Stars from '../../Components/Stars/Stars';
-import  React  from 'react';
+
 
 
 
